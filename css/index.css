@@ -1,0 +1,56 @@
+* {
+  box-sizing: border-box;
+}
+html,
+body {
+  margin: 0;
+  padding: 0;
+}
+.background {
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  background-image: url(../img/nature2.jpeg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  justify-content: center;
+  align-items: center;
+}
+.bnt-select {
+  height: 50px;
+  width: 500px;
+  background-color: transparent;
+  display: flex;
+  justify-content: space-between;
+  align-content: center;
+  border-radius: 5px;
+}
+.select {
+  height: 50px;
+  min-width: 200px;
+  background-color: transparent;
+  font-size: 24px;
+  border: none;
+  border-radius: 10px;
+  outline: none;
+  font-family: Arial, Helvetica, sans-serif;
+  cursor: pointer;
+  transition: opacity 0.8 linear;
+}
+.select:hover {
+  opacity: 0.8;
+}
+.select--myzone {
+  color: rebeccapurple;
+  background-color: aqua;
+}
+.select--publiczone {
+  color: #eb3434;
+  background-color: #40eb34;
+}
+.edge-left {
+  background-color: #1c076b;
+}
+.edge-right {
+  background-color: #1c076b;
+}
