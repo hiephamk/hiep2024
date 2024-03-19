@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="top"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="top"
+        android:text="Guess Number Game"
+        android:textAlignment="center"
+        android:textColor="#072BF1"
+        android:textSize="34sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:gravity="center"
+        android:text="Choose playing type"
+        android:textAlignment="center"
+        android:textColor="#E91E63"
+        android:textSize="24sp"
+        android:textStyle="bold|italic" />
+
+    <RadioGroup
+        android:id="@+id/radgroup"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <RadioButton
+            android:id="@+id/radsingle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:checked="true"
+            android:text="Single Player"
+            android:textColor="#0E2CCD"
+            android:textSize="24sp"
+            android:textStyle="bold" />
+
+        <RadioButton
+            android:id="@+id/radmultiple"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Multiple Players"
+            android:textColor="#0E2DD8"
+            android:textSize="24sp"
+            android:textStyle="bold" />
+    </RadioGroup>
+
+    <TextView
+        android:id="@+id/textView9"
+        android:layout_width="match_parent"
+        android:layout_height="50dp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="270dp"
+            android:layout_height="70dp"
+            android:layout_weight="1"
+            android:text="Range of Game"
+            android:gravity="center"
+            android:textColor="#0C28C3"
+            android:textSize="28sp"
+            android:textStyle="bold" />
+
+        <EditText
+            android:id="@+id/edtrange"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:ems="10"
+            android:gravity="center"
+            android:inputType="number"
+            android:textSize="24sp" />
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/textView14"
+        android:layout_width="match_parent"
+        android:layout_height="50dp" />
+
+    <Button
+        android:id="@+id/btnstart"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:background="#0CE315"
+        android:backgroundTint="#F30808"
+        android:gravity="center"
+        android:text="START"
+        android:shadowRadius="5"
+        android:textColor="#E91E63"
+        android:textSize="34sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/textView15"
+        android:layout_width="match_parent"
+        android:layout_height="30dp" />
+
+</LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <Button
+            android:id="@+id/btnStart"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="START"
+            android:textAlignment="center"
+            android:textColor="#E4DFDF"
+            android:textSize="34sp"
+            android:textStyle="bold"
+            app:iconTint="#BA350B" />
+
+    </LinearLayout>
+
+</LinearLayout>

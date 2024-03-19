@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="#FF5722"
+    android:stretchColumns="*"
+    android:visibility="visible"
+    tools:visibility="visible">
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:id="@+id/textView4"
+            android:layout_width="131dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+
+            android:layout_span="2"
+            android:text="TextView"
+            android:textAlignment="center"
+            android:textAllCaps="true"
+            android:textColor="#0BF3DD"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+    </TableRow>
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="50dp">
+
+        <TextView
+            android:id="@+id/textView9"
+            android:layout_width="wrap_content"
+            android:layout_height="50dp"
+            android:background="#FFEB3B"
+            android:text="Your money:"
+            android:gravity="center_vertical"
+            android:textColor="#3F51B5"
+            android:textSize="16sp"
+            android:textStyle="bold" />
+
+        <EditText
+            android:id="@+id/edtMoney"
+            android:layout_width="wrap_content"
+            android:layout_height="50dp"
+            android:ems="10"
+            android:background="#FFEB3B"
+            android:inputType="number" />
+
+    </TableRow>
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#CDDC39">
+
+        <TextView
+            android:id="@+id/textView6"
+            android:layout_width="wrap_content"
+            android:layout_height="50dp"
+            android:background="#FFEB3B"
+            android:text="Enter a number:"
+            android:gravity="center_vertical"
+            android:textColor="#3F51B5"
+            android:textSize="16sp"
+            android:textStyle="bold" />
+
+        <EditText
+            android:id="@+id/edtGuess"
+            android:layout_width="wrap_content"
+            android:layout_height="50dp"
+            android:background="#FFEB3B"
+            android:ems="10"
+            android:inputType="number" />
+    </TableRow>
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+</TableLayout>
